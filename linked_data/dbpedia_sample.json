@@ -1,0 +1,367 @@
+{
+  "results": [
+    {
+      "uri": "http://dbpedia.org/resource/Bill_Clinton",
+      "label": "Bill Clinton",
+      "description": "William Jefferson \"Bill\" Clinton (born William Jefferson Blythe III; August 19, 1946) is an American politician who served as the 42nd President of the United States from 1993 to 2001. Inaugurated at age 46, he was the third-youngest president. He took office at the end of the Cold War, and was the first president of the baby boomer generation. Clinton has been described as a New Democrat. Many of his policies have been attributed to a centrist Third Way philosophy of governance.",
+      "refCount": 7034,
+      "classes": [
+        {
+          "uri": "http://dbpedia.org/ontology/OfficeHolder",
+          "label": "office holder"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Person",
+          "label": "person"
+        },
+        {
+          "uri": "http://www.w3.org/2002/07/owl#Thing",
+          "label": "owl#Thing"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Agent",
+          "label": "agent"
+        },
+        {
+          "uri": "http://xmlns.com/foaf/0.1/Person",
+          "label": "http://xmlns.com/foaf/0.1/ person"
+        },
+        {
+          "uri": "http://schema.org/Person",
+          "label": "person"
+        }
+      ],
+      "categories": [
+        {
+          "uri": "http://dbpedia.org/resource/Category:Governors_of_Arkansas",
+          "label": "Governors of Arkansas"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:American_memoirists",
+          "label": "American memoirists"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Spouses_of_United_States_Cabinet_members",
+          "label": "Spouses of United States Cabinet members"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Grammy_Award_winners",
+          "label": "Grammy Award winners"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Rodham_family",
+          "label": "Rodham family"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Honorary_Fellows_of_University_College,_Oxford",
+          "label": "Honorary Fellows of University College, Oxford"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:American_health_activists",
+          "label": "American health activists"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Arkansas_lawyers",
+          "label": "Arkansas lawyers"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Democratic_Party_(United_States)_presidential_nominees",
+          "label": "Democratic Party (United States) presidential nominees"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Collars_of_the_Order_of_the_White_Lion",
+          "label": "Collars of the Order of the White Lion"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Grand_Companions_of_the_Order_of_Logohu",
+          "label": "Grand Companions of the Order of Logohu"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Yale_Law_School_alumni",
+          "label": "Yale Law School alumni"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Impeached_United_States_officials",
+          "label": "Impeached United States officials"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Edmund_A._Walsh_School_of_Foreign_Service_alumni",
+          "label": "Edmund A. Walsh School of Foreign Service alumni"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:United_States_presidential_candidates,_1992",
+          "label": "United States presidential candidates, 1992"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:American_Rhodes_scholars",
+          "label": "American Rhodes scholars"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Baptists_from_the_United_States",
+          "label": "Baptists from the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Bill_Clinton",
+          "label": "Bill Clinton"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Democratic_Party_state_governors_of_the_United_States",
+          "label": "Democratic Party state governors of the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Spouses_of_New_York_politicians",
+          "label": "Spouses of New York politicians"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Recipients_of_the_Order_of_the_Cross_of_Terra_Mariana,_1st_Class",
+          "label": "Recipients of the Order of the Cross of Terra Mariana, 1st Class"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Presidents_of_the_United_States",
+          "label": "Presidents of the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:U.S._Presidents_surviving_assassination_attempts",
+          "label": "U.S. Presidents surviving assassination attempts"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:People_from_Hope,_Arkansas",
+          "label": "People from Hope, Arkansas"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:United_States_presidential_candidates,_1996",
+          "label": "United States presidential candidates, 1996"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:United_Nations_officials",
+          "label": "United Nations officials"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:University_of_Arkansas_people",
+          "label": "University of Arkansas people"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Democratic_Party_Presidents_of_the_United_States",
+          "label": "Democratic Party Presidents of the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Alumni_of_University_College,_Oxford",
+          "label": "Alumni of University College, Oxford"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:American_legal_scholars",
+          "label": "American legal scholars"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:American_humanitarians",
+          "label": "American humanitarians"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Living_people",
+          "label": "Living people"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Arkansas_Democrats",
+          "label": "Arkansas Democrats"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Spouses_of_United_States_Senators",
+          "label": "Spouses of United States Senators"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:People_from_Hot_Springs,_Arkansas",
+          "label": "People from Hot Springs, Arkansas"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Ambassadors_to_Haiti",
+          "label": "Ambassadors to Haiti"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:1946_births",
+          "label": "1946 births"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Candidates_in_United_States_elections,_1980",
+          "label": "Candidates in United States elections, 1980"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Clinton_family",
+          "label": "Clinton family"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Arkansas_Attorneys_General",
+          "label": "Arkansas Attorneys General"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:People_of_the_Lewinsky_scandal",
+          "label": "People of the Lewinsky scandal"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:People_from_Arkansas",
+          "label": "People from Arkansas"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Charlemagne_Prize_recipients",
+          "label": "Charlemagne Prize recipients"
+        }
+      ],
+      "templates": [],
+      "redirects": []
+    },
+    {
+      "uri": "http://dbpedia.org/resource/Presidency_of_Bill_Clinton",
+      "label": "Presidency of Bill Clinton",
+      "description": "The United States Presidency of Bill Clinton, also known as the Clinton Administration, was the executive branch of the federal government of the United States from January 20, 1993 to January 20, 2001. Clinton was the first Democratic president since Franklin D. Roosevelt to win a second full term.",
+      "refCount": 603,
+      "classes": [
+        {
+          "uri": "http://dbpedia.org/ontology/President",
+          "label": "president"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Politician",
+          "label": "politician"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Person",
+          "label": "person"
+        },
+        {
+          "uri": "http://www.w3.org/2002/07/owl#Thing",
+          "label": "owl#Thing"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Agent",
+          "label": "agent"
+        },
+        {
+          "uri": "http://xmlns.com/foaf/0.1/Person",
+          "label": "http://xmlns.com/foaf/0.1/ person"
+        },
+        {
+          "uri": "http://schema.org/Person",
+          "label": "person"
+        }
+      ],
+      "categories": [
+        {
+          "uri": "http://dbpedia.org/resource/Category:1993_establishments_in_the_United_States",
+          "label": "1993 establishments in the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Bill_Clinton",
+          "label": "Bill Clinton"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Presidencies_of_the_United_States",
+          "label": "Presidencies of the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Presidency_of_Bill_Clinton",
+          "label": "Presidency of Bill Clinton"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:2001_disestablishments_in_the_United_States",
+          "label": "2001 disestablishments in the United States"
+        }
+      ],
+      "templates": [],
+      "redirects": []
+    },
+    {
+      "uri": "http://dbpedia.org/resource/United_States_presidential_election,_1992",
+      "label": "United States presidential election, 1992",
+      "description": "The United States presidential election of 1992 had three major candidates: Incumbent Republican President George H. W. Bush; Democratic Arkansas Governor Bill Clinton, and independent Texas businessman Ross Perot.",
+      "refCount": 382,
+      "classes": [
+        {
+          "uri": "http://dbpedia.org/ontology/Election",
+          "label": "election"
+        },
+        {
+          "uri": "http://www.w3.org/2002/07/owl#Thing",
+          "label": "owl#Thing"
+        },
+        {
+          "uri": "http://schema.org/Event",
+          "label": "event"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Event",
+          "label": "event"
+        }
+      ],
+      "categories": [
+        {
+          "uri": "http://dbpedia.org/resource/Category:History_of_the_United_States_(1991%E2%80%93present)",
+          "label": "History of the United States (1991–present)"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:United_States_presidential_election,_1992",
+          "label": "United States presidential election, 1992"
+        }
+      ],
+      "templates": [],
+      "redirects": []
+    },
+    {
+      "uri": "http://dbpedia.org/resource/Lewinsky_scandal",
+      "label": "Lewinsky scandal",
+      "description": "The Lewinsky scandal was a political sex scandal emerging in 1998, from a sexual relationship between United States President Bill Clinton and a 22-year-old White House intern, Monica Lewinsky. The news of this extra-marital affair and the resulting investigation eventually led to the impeachment of President Clinton in 1998 by the U.S. House of Representatives and his subsequent acquittal on all impeachment charges of perjury and obstruction of justice in a 21-day Senate trial.",
+      "refCount": 202,
+      "classes": [],
+      "categories": [
+        {
+          "uri": "http://dbpedia.org/resource/Category:Lewinsky_scandal",
+          "label": "Lewinsky scandal"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Political_scandals_in_the_United_States",
+          "label": "Political scandals in the United States"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Sex_scandals",
+          "label": "Sex scandals"
+        }
+      ],
+      "templates": [],
+      "redirects": []
+    },
+    {
+      "uri": "http://dbpedia.org/resource/Clinton_Foundation",
+      "label": "Clinton Foundation",
+      "description": "The William J. Clinton Foundation is a foundation established by former President of the United States Bill Clinton with the stated mission to \"strengthen the capacity of people throughout the world to meet the challenges of global interdependence. \" The Foundation focuses on four critical areas: health security; economic empowerment; leadership development and citizen service; and racial, ethnic and religious reconciliation.",
+      "refCount": 201,
+      "classes": [
+        {
+          "uri": "http://dbpedia.org/ontology/Organisation",
+          "label": "organisation"
+        },
+        {
+          "uri": "http://www.w3.org/2002/07/owl#Thing",
+          "label": "owl#Thing"
+        },
+        {
+          "uri": "http://schema.org/Organization",
+          "label": "organization"
+        },
+        {
+          "uri": "http://dbpedia.org/ontology/Agent",
+          "label": "agent"
+        }
+      ],
+      "categories": [
+        {
+          "uri": "http://dbpedia.org/resource/Category:Bill_Clinton",
+          "label": "Bill Clinton"
+        },
+        {
+          "uri": "http://dbpedia.org/resource/Category:Foundations_based_in_the_United_States",
+          "label": "Foundations based in the United States"
+        }
+      ],
+      "templates": [],
+      "redirects": []
+    }
+  ]
+}

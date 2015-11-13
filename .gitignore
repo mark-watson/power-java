@@ -1,0 +1,45 @@
+.DS_Store
+*~
+*.class
+*.jar
+*/.idea/*
+*/*.iml
+*/target
+target
+*.iml
+.idea
+opennlp/.idea
+opennlp/.idea/*
+opennlp/opennlp.iml
+internet_of_things/internet_of_things.iml
+machine_learning_spark/machine_learning_spark.iml
+logs
+*/logs
+*/*.iml
+
+*.iml
+
+## Directory-based project format:
+.idea/
+# if you remove the above rule, at least ignore the following:
+
+# User-specific stuff:
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/dictionaries
+
+# Sensitive or high-churn files:
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+
+## File-based project format:
+*.ipr
+*.iws
+
+## Plugin-specific files:
+
+# IntelliJ
+/out/

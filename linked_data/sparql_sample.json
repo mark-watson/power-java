@@ -1,0 +1,125 @@
+{
+  "head": {
+    "link": [],
+    "vars": [
+      "name",
+      "person"
+    ]
+  },
+  "results": {
+    "distinct": false,
+    "ordered": true,
+    "bindings": [
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Ryan David Jahn"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ryan_David_Jahn"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Jahn, Ryan David"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Ryan_David_Jahn"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Jeff Ellis"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jeff_Ellis_(recording_engineer)"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Ellis, Jeff"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Jeff_Ellis_(recording_engineer)"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Rylan Galiardi"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Rylan_Galiardi"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Galiardi, Rylan"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Rylan_Galiardi"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Evans, Gene"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Gene_Evans"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Gene Evans"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Gene_Evans"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Harold Louis Humes, Jr."
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_L._Humes"
+        }
+      },
+      {
+        "name": {
+          "type": "literal",
+          "xml:lang": "en",
+          "value": "Jr. Harold Louis Humes"
+        },
+        "person": {
+          "type": "uri",
+          "value": "http://dbpedia.org/resource/Harold_L._Humes"
+        }
+      }
+    ]
+  }
+}

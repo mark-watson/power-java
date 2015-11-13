@@ -1,0 +1,1271 @@
+From 1512584914615853097@xxx Thu Sep 17 18:09:44 +0000 2015
+X-GM-THRID: 1512584914615853097
+X-Gmail-Labels: Inbox,bookexample
+Delivered-To: xxxxxx@gmail.com
+Received: by 10.140.97.244 with SMTP id m107csp3123926qge;
+        Thu, 17 Sep 2015 11:09:44 -0700 (PDT)
+X-Received: by 10.107.46.101 with SMTP id i98mr8758666ioo.17.1442513384864;
+        Thu, 17 Sep 2015 11:09:44 -0700 (PDT)
+Return-Path: <bounce-mc.us1_449017.1858625-markw=markwatson.com@mai2.aw1.mcxse.net>
+Received: from mail1.mail.st (mail1.mail.st. [x.x.x.x])
+        by mx.google.com with ESMTP id kj814igb.28.2015.09.17.11.09.44
+        for <xxxxxx@gmail.com>;
+        Thu, 17 Sep 2015 11:09:44 -0700 (PDT)
+Received-SPF: neutral (google.com: 206.123.115.54 is neither permitted nor denied by domain of bounce-mc.us1_449017.1858625-markw=markwatson.com@mail42.atl31.mcdlv.net) client-ip=206.123.115.54;
+Authentication-Results: mx.google.com;
+       spf=neutral (google.com: 206.123.115.54 is neither permitted nor denied by domain of bounce-mc.us1_449017.1858625-markw=markwatson.com@mail42.atl31.mcdlv.net) smtp.mailfrom=bounce-mc.us1_449017.1858625-markw=markwatson.com@mail42.atl31.mcdlv.net;
+       dkim=pass header.i=@mail42.atl31.mcdlv.net
+Received: from mail42.atl31.mcdlv.net (mail42.atl31.mcdlv.net [205.201.134.42])
+	by mail1.mail.st (Postfix) with ESMTP id E443C60370
+	for <markw@markwatson.com>; Thu, 17 Sep 2015 18:09:42 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed/relaxed; s=k1; d=mail42.atl31.mcdlv.net;
+ h=Subject:From:Reply-To:To:Date:Message-ID:List-ID:List-Unsubscribe:Sender:Content-Type:MIME-Version; i=rw=3Dpeterc.org@mail42.atl31.mcdlv.net;
+ bh=NACEySVW34mokafJiw7iZizDU+c=;
+ b=P9WaUxnNz8s0v8QbDSrQM77hKwPgSdJFwQn6CisToh64WBWXmf2W/pc3LMa5fV0nSBs6uUZBjh+4
+   v3M2mqHJHbPSz9B7mIbt8tA26FZ1ti6CkxPxqkA12iygFv7ZvSw1jQzMEEzZrCSFVUaatTZgQfC4
+   AcRUShcBPRUo64K5Z4U=
+DomainKey-Signature: a=rsa-sha1; c=nofws; q=dns; s=k1; d=mail42.atl31.mcdlv.net;
+ b=V5yBFds2a9/bAUhE3oiNgBlQx24BlOvopTlucdzApTFoKc6PlE6pkp2F8arfu6fICK+UYvDOOaYR
+   ibQHJ6/yHQAamrKDsbGj5HdDntJY0wuBWZtkGPCRK5c98OnVb4tIsOqu74e/sIxIgclZUKNo6b4y
+   0wSDZaxoOpJnyMPfW9g=;
+Received: from (127.0.0.1) by mail42.atl31.mcdlv.net id hvc0uc1mqrou for <markw@markwatson.com>; Thu, 17 Sep 2015 17:54:37 +0000 (envelope-from <bounce-mc.us1_449017.1858625-markw=markwatson.com@mail42.atl31.mcdlv.net>)
+Subject: =?utf-8?Q?This=20week=27s=20Ruby=20news=2C=20issue=20264?=
+From: =?utf-8?Q?Ruby=20Weekly?= <rw@peterc.org>
+Reply-To: =?utf-8?Q?Ruby=20Weekly?= <rw@peterc.org>
+To: <markw@markwatson.com>
+Date: Thu, 17 Sep 2015 17:54:37 +0000
+Message-ID: <0618f6a79d6bb9675f313ceb2ada472af1a.20150917175359@mail42.atl31.mcdlv.net>
+X-Mailer: MailChimp Mailer - **CID3919d6cf16ada472af1a**
+X-Campaign: mailchimp0618f6a79d6bb9675f313ceb2.3919d6cf16
+X-campaignid: mailchimp0618f6a79d6bb9675f313ceb2.3919d6cf16
+X-Report-Abuse: Please report abuse for this campaign here: http://www.mailchimp.com/abuse/abuse.phtml?u=0618f6a79d6bb9675f313ceb2&id=3919d6cf16&e=ada472af1a
+X-MC-User: 0618f6a79d6bb9675f313ceb2
+X-Feedback-ID: 449017:449017.1858625:us1:mc
+List-ID: 0618f6a79d6bb9675f313ceb2mc list <0618f6a79d6bb9675f313ceb2.612785.list-id.mcsv.net>
+X-Accounttype: pd
+List-Unsubscribe: <mailto:unsubscribe-mc.us1_0618f6a79d6bb9675f313ceb2.3919d6cf16-ada472af1a@mailin1.us2.mcsv.net?subject=unsubscribe>, <http://rubyweekly.us1.list-manage.com/unsubscribe?u=0618f6a79d6bb9675f313ceb2&id=d9d24eba5b&e=ada472af1a&c=3919d6cf16>
+Sender: "Ruby Weekly" <rw=peterc.org@mail42.atl31.mcdlv.net>
+x-mcda: FALSE
+Content-Type: multipart/alternative; boundary="_----------=_MCPart_1710663541"
+MIME-Version: 1.0
+
+This is a multi-part message in MIME format
+
+--_----------=_MCPart_1710663541
+Content-Type: text/plain; charset="utf-8"; format="fixed"
+Content-Transfer-Encoding: quoted-printable
+
+This week's Ruby and Rails news
+
+Ruby Weekly - A Weekly Ruby Newsletter
+Issue 264 - September 17=2C 2015
+
+To unsubscribe: http://rubyweekly.us1.list-manage.com/unsubscribe?u=3D0618=
+f6a79d6bb9675f313ceb2&id=3Dd9d24eba5b&e=3Dada472af1a&c=3D3919d6cf16
+
+
+Camaleon: A Content Management System built on Rails 4
+https://github.com/owen2345/camaleon-cms
+
+  Has a bit of a WordPress feel to the admin system. There=E2=80=99s a =E2=
+=80=98Deploy to
+  Heroku=E2=80=99 button too if you want to give it a quick spin.
+
+pastel: Terminal Output Styling with an Intuitive API
+https://github.com/peter-murach/pastel
+
+  Minimal and aimed to work in all terminal emulators. It doesn=E2=80=99t=
+ monkey
+  patch the String class either.
+
+How to Debug Ruby Memory Issues
+http://eng.rightscale.com/2015/09/16/how-to-debug-ruby-memory-issues.html
+
+  A look at monitoring runtime memory consumption and using GC settings (s=
+uch
+  as RUBY_GC_HEAP_INIT_SLOTS and RUBY_GC_HEAP_GROWTH_MAX_SLOTS) to work on
+  memory issues.
+
+Codeship opens invitations for its Docker Platform
+http://beta.codeship.com/?utm_source=3DRubyWeekly&utm_medium=3Dnewsletter&=
+utm_campaign=3Dworkflows
+
+  You now can request trial access to Codeship's new Docker Platform. It
+  integrates perfectly with your existing Docker Workflows and helps you
+  automate shipping of your Docker images.
+
+The Little Things in Ruby: Heredocs
+http://weblog.jamisbuck.org/2015/9/12/little-things-heredocs.html
+
+  Heredocs make it possible to define multi-line strings cleanly using cus=
+tom
+  defined delimiters. Jamis takes a look at how they can be used in Ruby.
+
+Hello=2C Crystal: A Compiled=2C Statically Typed Ruby Look-a-Like
+http://devblog.avdi.org/2015/08/20/hello-crystal/
+
+  A quick example of Crystal=2C showing how similar its syntax is to Ruby.=
+ It=E2=80=99s
+  an interesting new language that basically provides a Ruby-like syntax b=
+ut
+  that compiles down to native code.
+
+Slackiq: Send Info on Your Sidekiq Jobs to Slack
+https://github.com/MightySignal/slackiq
+
+  A library that enables you to easily send information about your Sidekiq
+  jobs to a channel on your team=E2=80=99s Slack.
+
+Ruby and Go Sitting in a Tree
+http://blog.paracode.com/2015/08/28/ruby-and-go-sitting-in-a-tree
+
+  A look at how to build a Ruby gem around a native extension written in G=
+o=2C
+  a possibility enabled by Go 1.5=E2=80=99s c-shared build mode.
+
+Senior Software Developer in Vancouver BC
+http://predictablerevenue.com/about/careers#op-50880-senior-software-devel=
+oper
+
+  Come join our Vancouver-based team and help expand our Ruby on Rails API
+  and AngularJS client to support our growing client base! You=E2=80=99ll=
+ work with a
+  tight-knit team to suggest architecture and processes improvements where=
+ver
+  you see potential.
+
+Expert Ruby Instructors at Pluralsight (Freelance-Part-time)
+http://www.pluralsight.com/teach
+
+  Currently hiring expert Ruby Developers that want to share their knowled=
+ge
+  with a global audience. As a Pluralsight author=2C you'll join a tight k=
+nit
+  family of passionate teachers and earn royalties. We are looking for the
+  best communicators and presenters in the Ruby community. Apply today.
+
+Want to work on new projects? Make more money? Try a new stack? Relocate?
+https://hired.com/?utm_source=3Dnewsletters&utm_medium=3Drubyweekly&utm_ca=
+mpaign=3Dn-q3_15-petercooperpress&utm_content=3Doptions
+
+  On Hired=2C we'll bring the options to you. With over 2=2C000 pre-screen=
+ed tech
+  companies in 10 cities in the US & UK=2C you'll be sure to find what you=
+'re
+  looking for. Join Hired today.
+
+Honeybadger announces realtime error monitoring for Go & Ruby
+http://blog.honeybadger.io/error-monitoring-for-go/?utm_source=3Drubyweekl=
+y&utm_medium=3Demail&utm_campaign=3Dgoannouncement
+
+  Do you use Go and Ruby together? Now you can cover both languages with a
+  single error monitoring service.
+
+OSCON is in Amsterdam=2C 26-28 October 2015
+http://www.oscon.com/open-source-eu-2015/
+
+  OSCON is back in Europe and I=E2=80=99m one of the chairs=2C so come alo=
+ng :-)
+
+3 Steps to Fix String Encoding Problems in Ruby
+http://www.justinweiss.com/blog/2015/09/15/3-steps-to-fix-encoding-problem=
+s-in-ruby/
+
+  If you=E2=80=99ve ever been stung by Encoding::InvalidByteSequenceError.=
+=2E.
+
+Ruby VM Internals and Investigating Variable Scope
+http://techblog.shutl.com/2015/09/ruby-virtual-machine-internals-and-inves=
+tigating-variable-scope/
+
+How to Run Hello World with Ruby on Google Cloud Platform
+https://cloud.google.com/ruby/getting-started/hello-world
+
+Setting Up A Data Warehouse with AWS Redshift and Ruby
+https://www.credible.com/code/setting-up-a-data-warehouse-with-aws-redshif=
+t-and-ruby/
+
+How to Deploy Your Rails App to OpenShift
+http://www.sitepoint.com/deploy-your-rails-to-openshift/
+
+  OpenShift is Red Hat=E2=80=99s Platform-as-a-Service (PaaS).
+
+Understanding Volt Promise Objects
+http://datamelon.io/blog/2015/volt-promise-objects.html
+
+N-gram Analysis for Fun and Profit
+http://www.blackbytes.info/2015/09/ngram-analysis-ruby/
+
+The Basics of Forking with Ruby
+http://pricees.github.io/2015/09/10/forking-with-ruby/
+
+Learning Ruby through Clojure
+https://medium.com/buttercloud-labs/learning-ruby-through-clojure-fee5eb99=
+0226
+
+Professional private code hosting for developers & teams
+https://www.codebasehq.com/t/rubyweekly-160715
+
+  Codebase offers fast & reliable hosting for Git=2C HG & SVN repos with
+  project management built-in. 50% off first 3 months with code RUBYWEEKLY=
+=2E
+
+MongoDB Ruby Driver 2.1.0 Released
+https://www.compose.io/articles/mongodb-ruby-driver-2-1-0-is-out/
+
+TTY::Screen: Terminal Screen Size and Color Detection
+https://github.com/peter-murach/tty-screen
+
+  Works on Linux=2C OS X and Windows/Cygwin and supports MRI=2C JRuby and
+  Rubinius.
+
+RSStoAPI: An API for Retrieving and Serving RSS Feeds=2C with Caching
+https://github.com/csm123/rsstoapi/
+
+Decontaminator: Ruby HTML Sanitizer based on a Lightweight Oga Parser
+https://github.com/altmetric/decontaminator
+
+rwordnet: A Pure Ruby Interface to the WordNet Database
+https://github.com/doches/rwordnet
+
+
+
+--
+You opted in for Ruby Weekly at http://rubyweekly.com/ to get weekly e-mai=
+ls
+about the Ruby programming language.
+
+You can unsubscribe at: http://rubyweekly.us1.list-manage.com/unsubscribe?=
+u=3D0618f6a79d6bb9675f313ceb2&id=3Dd9d24eba5b&e=3Dada472af1a&c=3D3919d6cf16
+
+Our mailing address is: Office 30=2C Lincoln Way=2C Fairfield Enterprise C=
+entre=2C
+Louth=2C Lincs=2C UK=2C LN11 9EJ.
+
+You can e-mail the list maintainer directly at rw@peterc.org in case of
+problems/questions.
+--_----------=_MCPart_1710663541
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www=
+=2Ew3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"><html xmlns=3D"http://www.w=
+3.org/1999/xhtml"><head><meta http-equiv=3D"Content-Type" content=3D"text/=
+html; charset=3DUTF-8" /><title>This week's Ruby news=2C issue 264</title>=
+<meta name=3D"viewport" content=3D"width=3Ddevice-width" /><style type=3D"=
+text/css">
+body=2C table=2C td=2C p=2C a=2C li=2C blockquote { -webkit-text-size-adju=
+st: 100%; -ms-text-size-adjust: 100% }
+table=2C td {mso-table-rspace: 0pt; mso-table-lspace: 0pt }
+img{ -ms-interpolation-mode: bicubic }
+body { margin: 0; padding: 0; width: 100%; font-family: 'helvetica neue'=
+=2C helvetica=2C arial=2C sans-serif; }
+table {border-spacing: 0;  mso-table-lspace:-1pt; mso-table-rspace:-1pt; b=
+order-collapse: collapse !important }
+@media screen and (max-width: 600px) {
+body=2C table=2C td=2C p=2C a=2C li=2C blockquote { -webkit-text-size-adju=
+st: none !important }
+body { width: 100% !important; min-width: 100% !important }
+=2Enomo { display: none; }
+=2Elonmo { text-align: left !important; }
+=2Egowide { width: 100%; }
+=2Econtainer { width: auto !important;}
+}
+</style></head><body style=3D"margin: 0"><table border=3D"0" width=3D"100%=
+" cellpadding=3D"0" cellspacing=3D"0" bgcolor=3D"#ffffff" style=3D"font-fa=
+mily: 'helvetica neue'=2C helvetica=2C arial=2C sans-serif; font-size: 14p=
+x; line-height: 20px; color: #333"><tr><td align=3D"center" valign=3D"top"=
+><table border=3D"0" width=3D"670" cellpadding=3D"0" cellspacing=3D"0" cla=
+ss=3D"container noarchive" style=3D"border-collapse: collapse;"><tr><td st=
+yle=3D"padding-top: 6px; padding-bottom: 6px; font-size: 12px; text-align:=
+ center; color: #555"><span class=3D"nomo">This week's Ruby and Rails news=
+<br /></span><a href=3D"http://rubyweekly.us1.list-manage.com/track/click?=
+u=3D0618f6a79d6bb9675f313ceb2&id=3D5c78a71d7c&e=3Dada472af1a" style=3D"co=
+lor: #dd0000">Read this e-mail on the Web</a></td></tr></table><table bord=
+er=3D"0" width=3D"670" cellpadding=3D"0" cellspacing=3D"0" class=3D"contai=
+ner" style=3D"border-collapse: collapse"><tr><td style=3D"background-color=
+: #dd0000"><table width=3D"100%" cellspacing=3D"0" cellpadding=3D"0" align=
+=3D"left"><tr><td align=3D"left" class=3D"block" style=3D"padding: 6px 12p=
+x;"><table align=3D"left" width=3D"50%" class=3D"gowide"><tr><td><span sty=
+le=3D"line-height: 36px; font-size: 23px; color: #dd0000; font-weight: bol=
+d; color: #ffffff; -webkit-font-smoothing: antialiased;">Ruby Weekly</span=
+></td></tr></table><table align=3D"left" style=3D"text-align: right" width=
+=3D"50%" class=3D"gowide lonmo"><tr><td><span style=3D"font-size: 14px; li=
+ne-height: 36px; font-weight: normal; color: #ffffff">
+Issue 264 &mdash; September 17=2C 2015
+</span></td></tr></table></td></tr></table></td></tr><tr><td style=3D"padd=
+ing: 16px 12px 12px 12px" align=3D"left"><table width=3D"500" align=3D"lef=
+t" class=3D"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-co=
+llapse: collapse"><tr><td><div style=3D"color: #dd0000; font-weight: norma=
+l; font-size: 12px; line-height: 14px; text-transform: uppercase; margin-t=
+op: 2px; font-family: verdana=2C arial=2C sans-serif">
+Owen Peredo Diaz
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D23d5d9b7c3&e=3Dada472af1a" title=3D"github.com/owen2345/camaleon-cms"=
+ style=3D"display: block; color: #0055bb; line-height: 24px; text-decorati=
+on: underline; font-weight: normal">Camaleon: A Content Management System=
+ built on Rails 4</a></div><div style=3D"font-size: 13px; line-height: 17p=
+x; margin-top: 4px">
+Has a bit of a WordPress feel to the admin system. There=E2=80=99s a =E2=
+=80=98Deploy to Heroku=E2=80=99 button too if you want to give it a quick=
+ spin.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><table width=3D"500" align=3D"left" class=3D=
+"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: col=
+lapse"><tr><td><div style=3D"color: #dd0000; font-weight: normal; font-siz=
+e: 12px; line-height: 14px; text-transform: uppercase; margin-top: 2px; fo=
+nt-family: verdana=2C arial=2C sans-serif">
+Piotr Murach
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D4464497744&e=3Dada472af1a" title=3D"github.com/peter-murach/pastel" st=
+yle=3D"display: block; color: #0055bb; line-height: 24px; text-decoration:=
+ underline; font-weight: normal">pastel: Terminal Output Styling with an I=
+ntuitive API</a></div><div style=3D"font-size: 13px; line-height: 17px; ma=
+rgin-top: 4px">
+Minimal and aimed to work in all terminal emulators. It doesn=E2=80=99t mo=
+nkey patch the String class either.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><table width=3D"500" align=3D"left" class=3D=
+"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: col=
+lapse"><tr><td><div style=3D"color: #dd0000; font-weight: normal; font-siz=
+e: 12px; line-height: 14px; text-transform: uppercase; margin-top: 2px; fo=
+nt-family: verdana=2C arial=2C sans-serif">
+Callum Dryden
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3De290938e3d&e=3Dada472af1a" title=3D"eng.rightscale.com/2015/09/16/how-=
+to-debug-ruby-memory-issues.html" style=3D"display: block; color: #0055bb;=
+ line-height: 24px; text-decoration: underline; font-weight: normal">How t=
+o Debug Ruby Memory Issues</a></div><div style=3D"font-size: 13px; line-he=
+ight: 17px; margin-top: 4px">
+A look at monitoring runtime memory consumption and using GC settings (suc=
+h as RUBY_GC_HEAP_INIT_SLOTS and RUBY_GC_HEAP_GROWTH_MAX_SLOTS) to work on=
+ memory issues.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><table width=3D"500" align=3D"left" class=3D=
+"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: col=
+lapse"><tr><td><div style=3D"color: #dd0000; font-weight: normal; font-siz=
+e: 12px; line-height: 14px; text-transform: uppercase; margin-top: 2px; fo=
+nt-family: verdana=2C arial=2C sans-serif">
+Codeship
+&nbsp;<span style=3D"background-color: #ffff99; color: #999900; font-weigh=
+t: normal; padding: 1px 5px 0px 5px;">Sponsored</span></div><div style=3D"=
+font-size: 18px; margin: 2px 0px"><a href=3D"http://rubyweekly.us1.list-ma=
+nage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D0bc1df0ba7&e=3D=
+ada472af1a" title=3D"beta.codeship.com/?utm_source=3DRubyWeekly&utm_medium=
+=3Dnewsletter&utm_campaign=3Dworkflows" style=3D"display: block; color: #0=
+055bb; line-height: 24px; text-decoration: underline; font-weight: normal"=
+>Codeship opens invitations for its Docker Platform</a></div><div style=3D=
+"font-size: 13px; line-height: 17px; margin-top: 4px">You now can request=
+ trial access to Codeship's new Docker Platform. It integrates perfectly w=
+ith your existing Docker Workflows and helps you automate shipping of your=
+ Docker images.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"><a href=3D"http://rubyweekly.u=
+s1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8e4211b=
+259&e=3Dada472af1a"><img src=3D"https://copm.s3.amazonaws.com/913b4df7.pn=
+g" style=3D"border: 0" width=3D"100" height=3D"100" alt=3D"Codeship" /></a=
+></td></tr></table><br clear=3D"all" style=3D"clear: both" /><table width=
+=3D"500" align=3D"left" class=3D"gowide" cellpadding=3D"0" cellspacing=3D"=
+0" style=3D"border-collapse: collapse"><tr><td><div style=3D"color: #dd000=
+0; font-weight: normal; font-size: 12px; line-height: 14px; text-transform=
+: uppercase; margin-top: 2px; font-family: verdana=2C arial=2C sans-serif"=
+>
+Jamis Buck
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D1aaeb04811&e=3Dada472af1a" title=3D"weblog.jamisbuck.org/2015/9/12/lit=
+tle-things-heredocs.html" style=3D"display: block; color: #0055bb; line-he=
+ight: 24px; text-decoration: underline; font-weight: normal">The Little Th=
+ings in Ruby: Heredocs</a></div><div style=3D"font-size: 13px; line-height=
+: 17px; margin-top: 4px">
+Heredocs make it possible to define multi-line strings cleanly using custo=
+m defined delimiters. Jamis takes a look at how they can be used in Ruby.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><table width=3D"500" align=3D"left" class=3D=
+"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: col=
+lapse"><tr><td><div style=3D"color: #dd0000; font-weight: normal; font-siz=
+e: 12px; line-height: 14px; text-transform: uppercase; margin-top: 2px; fo=
+nt-family: verdana=2C arial=2C sans-serif">
+Avdi Grimm
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D620abeff0e&e=3Dada472af1a" title=3D"devblog.avdi.org/2015/08/20/hello-=
+crystal/" style=3D"display: block; color: #0055bb; line-height: 24px; text=
+-decoration: underline; font-weight: normal">Hello=2C Crystal: A Compiled=
+=2C Statically Typed Ruby Look-a-Like</a></div><div style=3D"font-size: 13=
+px; line-height: 17px; margin-top: 4px">
+A quick example of Crystal=2C showing how similar its syntax is to Ruby. I=
+t=E2=80=99s an interesting new language that basically provides a Ruby-lik=
+e syntax but that compiles down to native code.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><table width=3D"500" align=3D"left" class=3D=
+"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: col=
+lapse"><tr><td><div style=3D"color: #dd0000; font-weight: normal; font-siz=
+e: 12px; line-height: 14px; text-transform: uppercase; margin-top: 2px; fo=
+nt-family: verdana=2C arial=2C sans-serif">
+MightySignal
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D63da884d3e&e=3Dada472af1a" title=3D"github.com/MightySignal/slackiq" s=
+tyle=3D"display: block; color: #0055bb; line-height: 24px; text-decoration=
+: underline; font-weight: normal">Slackiq: Send Info on Your Sidekiq Jobs=
+ to Slack</a></div><div style=3D"font-size: 13px; line-height: 17px; margi=
+n-top: 4px">
+A library that enables you to easily send information about your Sidekiq j=
+obs to a channel on your team=E2=80=99s Slack.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><table width=3D"500" align=3D"left" class=3D=
+"gowide" cellpadding=3D"0" cellspacing=3D"0" style=3D"border-collapse: col=
+lapse"><tr><td><div style=3D"color: #dd0000; font-weight: normal; font-siz=
+e: 12px; line-height: 14px; text-transform: uppercase; margin-top: 2px; fo=
+nt-family: verdana=2C arial=2C sans-serif">
+Dotan Nahum
+</div><div style=3D"font-size: 18px; margin: 2px 0px"><a href=3D"http://ru=
+byweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D6c3bf8f87d&e=3Dada472af1a" title=3D"blog.paracode.com/2015/08/28/ruby-=
+and-go-sitting-in-a-tree" style=3D"display: block; color: #0055bb; line-he=
+ight: 24px; text-decoration: underline; font-weight: normal">Ruby and Go S=
+itting in a Tree</a></div><div style=3D"font-size: 13px; line-height: 17px=
+; margin-top: 4px">
+A look at how to build a Ruby gem around a native extension written in Go=
+=2C a possibility enabled by Go 1.5=E2=80=99s c-shared build mode.
+</div><br /></td></tr></table><table width=3D"140" class=3D"nomo" align=3D=
+"left"><tr><td style=3D"text-align: center"></td></tr></table><br clear=3D=
+"all" style=3D"clear: both" /><p style=3D"color: #dd0000; font-size: 18px;=
+ font-weight: normal; margin-top: 8px; margin-bottom: 10px">Jobs</p><ul st=
+yle=3D"padding-left: 18px; margin-top: 10px; list-style-type: square"><li=
+ style=3D"color: #dd0000; margin-bottom: 16px; font-size: 16px; line-heigh=
+t: 16px"><a href=3D"http://rubyweekly.us1.list-manage2.com/track/click?u=
+=3D0618f6a79d6bb9675f313ceb2&id=3Db92b5feb69&e=3Dada472af1a" style=3D"col=
+or: #0055bb; margin-right: 4px; line-height: 18px; font-weight: normal">Se=
+nior Software Developer in Vancouver BC</a><span style=3D"font-size: 12px;=
+ color: #666666">Come join our Vancouver-based team and help expand our Ru=
+by on Rails API and AngularJS client to support our growing client base! Y=
+ou=E2=80=99ll work with a tight-knit team to suggest architecture and proc=
+esses improvements wherever you see potential.</span>&nbsp;<span style=3D"=
+color: #dd0000; font-weight: normal; font-size: 12px; text-transform: uppe=
+rcase; font-family: verdana=2C arial=2C sans-serif">Predictable Revenue</s=
+pan></li><li style=3D"color: #dd0000; margin-bottom: 16px; font-size: 16px=
+; line-height: 16px"><a href=3D"http://rubyweekly.us1.list-manage1.com/tra=
+ck/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6054777772&e=3Dada472af1a" st=
+yle=3D"color: #0055bb; margin-right: 4px; line-height: 18px; font-weight:=
+ normal">Expert Ruby Instructors at Pluralsight (Freelance-Part-time)</a><=
+span style=3D"font-size: 12px; color: #666666">Currently hiring expert Rub=
+y Developers that want to share their knowledge with a global audience.  A=
+s a Pluralsight author=2C you'll join a tight knit family of passionate te=
+achers and earn royalties. We are looking for the best communicators and p=
+resenters in the Ruby community. Apply today.</span>&nbsp;<span style=3D"c=
+olor: #dd0000; font-weight: normal; font-size: 12px; text-transform: upper=
+case; font-family: verdana=2C arial=2C sans-serif">Pluralsight</span></li>=
+<li style=3D"color: #dd0000; margin-bottom: 16px; font-size: 16px; line-he=
+ight: 16px"><a href=3D"http://rubyweekly.us1.list-manage1.com/track/click?=
+u=3D0618f6a79d6bb9675f313ceb2&id=3Df99b8ff5ad&e=3Dada472af1a" style=3D"co=
+lor: #0055bb; margin-right: 4px; line-height: 18px; font-weight: normal">W=
+ant to work on new projects? Make more money? Try a new stack? Relocate?</=
+a><span style=3D"font-size: 12px; color: #666666">On Hired=2C we'll bring=
+ the options to you. With over 2=2C000 pre-screened tech companies in 10 c=
+ities in the US &amp; UK=2C you'll be sure to find what you're looking for=
+=2E Join Hired today.</span>&nbsp;<span style=3D"color: #dd0000; font-weight=
+: normal; font-size: 12px; text-transform: uppercase; font-family: verdana=
+=2C arial=2C sans-serif">Hired<span>.</span>com</span></li></ul><p style=
+=3D"color: #dd0000; font-size: 18px; font-weight: normal; margin-top: 24px=
+; margin-bottom: 10px">In brief</p><ul style=3D"padding-left: 18px; margin=
+-top: 10px; list-style-type: square"><li style=3D"color: #ee5533; margin-b=
+ottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rubywee=
+kly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D8fc=
+b3c0b83&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-=
+height: 20px; font-weight: normal">Honeybadger announces realtime error mo=
+nitoring for Go & Ruby</a>&nbsp;<span style=3D"font-size: 12px; padding: 1=
+px 3px; text-transform: uppercase; background-color: #bbbbbb; color: #fff;=
+ font-weight: normal; font-family: verdana=2C arial=2C sans-serif">news</s=
+pan> <br /><span style=3D"font-size: 12px; color: #666666">Do you use Go a=
+nd Ruby together? Now you can cover both languages with a single error mon=
+itoring service.</span>&nbsp;<span style=3D"color: #dd0000; font-weight: n=
+ormal; font-size: 12px; text-transform: uppercase; font-family: verdana=2C=
+ arial=2C sans-serif"><br />Honeybadger.io &nbsp;&nbsp;<span style=3D"back=
+ground-color: #ffff99; color: #999900; font-weight: normal; padding: 1px 5=
+px 0px 6px;">Sponsored</span></span></li><li style=3D"color: #ee5533; marg=
+in-bottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rub=
+yweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3Df84221f7e5&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px;=
+ line-height: 20px; font-weight: normal">OSCON is in Amsterdam=2C 26-28 Oc=
+tober 2015</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; text=
+-transform: uppercase; background-color: #bbbbbb; color: #fff; font-weight=
+: normal; font-family: verdana=2C arial=2C sans-serif">news</span> <br /><=
+span style=3D"font-size: 12px; color: #666666">
+OSCON is back in Europe and I=E2=80=99m one of the chairs=2C so come along=
+ :-)
+</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal; font-size=
+: 12px; text-transform: uppercase; font-family: verdana=2C arial=2C sans-s=
+erif"><br />O'Reilly </span></li><li style=3D"color: #ee5533; margin-botto=
+m: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rubyweekly.=
+us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D67ea28d=
+8c1&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-heig=
+ht: 20px; font-weight: normal">3 Steps to Fix String Encoding Problems in=
+ Ruby</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; text-tran=
+sform: uppercase; background-color: #00bb00; color: #fff; font-weight: nor=
+mal; font-family: verdana=2C arial=2C sans-serif">tutorial</span> <br /><s=
+pan style=3D"font-size: 12px; color: #666666">
+If you=E2=80=99ve ever been stung by <code>Encoding::InvalidByteSequenceEr=
+ror</code>...
+</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal; font-size=
+: 12px; text-transform: uppercase; font-family: verdana=2C arial=2C sans-s=
+erif"><br />Justin Weiss </span></li><li style=3D"color: #ee5533; margin-b=
+ottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rubywee=
+kly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D7b2=
+9729621&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-=
+height: 20px; font-weight: normal">Ruby VM Internals and Investigating Var=
+iable Scope</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; tex=
+t-transform: uppercase; background-color: #00bb00; color: #fff; font-weigh=
+t: normal; font-family: verdana=2C arial=2C sans-serif">tutorial</span>&nb=
+sp;<span style=3D"color: #dd0000; font-weight: normal; font-size: 12px; te=
+xt-transform: uppercase; font-family: verdana=2C arial=2C sans-serif"><br=
+ />Graham Lyons </span></li><li style=3D"color: #ee5533; margin-bottom: 16=
+px; font-size: 16px; line-height: 16px"><a href=3D"http://rubyweekly.us1.l=
+ist-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D162a2f8cf4&e=
+=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-height: 2=
+0px; font-weight: normal">How to Run Hello World with Ruby on Google Cloud=
+ Platform</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; text-=
+transform: uppercase; background-color: #00bb00; color: #fff; font-weight:=
+ normal; font-family: verdana=2C arial=2C sans-serif">tutorial</span>&nbsp=
+;<span style=3D"color: #dd0000; font-weight: normal; font-size: 12px; text=
+-transform: uppercase; font-family: verdana=2C arial=2C sans-serif"><br />=
+Google Cloud Platform </span></li><li style=3D"color: #ee5533; margin-bott=
+om: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rubyweekly=
+=2Eus1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D6ef059=
+f8d2&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-hei=
+ght: 20px; font-weight: normal">Setting Up A Data Warehouse with AWS Redsh=
+ift and Ruby</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; te=
+xt-transform: uppercase; background-color: #00bb00; color: #fff; font-weig=
+ht: normal; font-family: verdana=2C arial=2C sans-serif">tutorial</span>&n=
+bsp;<span style=3D"color: #dd0000; font-weight: normal; font-size: 12px; t=
+ext-transform: uppercase; font-family: verdana=2C arial=2C sans-serif"><br=
+ />Credible Labs </span></li><li style=3D"color: #ee5533; margin-bottom: 1=
+6px; font-size: 16px; line-height: 16px"><a href=3D"http://rubyweekly.us1.=
+list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dec6f214d1c=
+&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-height:=
+ 20px; font-weight: normal">How to Deploy Your Rails App to OpenShift</a>&=
+nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; text-transform: upp=
+ercase; background-color: #00bb00; color: #fff; font-weight: normal; font-=
+family: verdana=2C arial=2C sans-serif">tutorial</span> <br /><span style=
+=3D"font-size: 12px; color: #666666">
+OpenShift is Red Hat=E2=80=99s Platform-as-a-Service (PaaS).
+</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal; font-size=
+: 12px; text-transform: uppercase; font-family: verdana=2C arial=2C sans-s=
+erif"><br />SitePoint </span></li><li style=3D"color: #ee5533; margin-bott=
+om: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rubyweekly=
+=2Eus1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D07e710=
+f599&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-hei=
+ght: 20px; font-weight: normal">Understanding Volt Promise Objects</a>&nbs=
+p;<span style=3D"font-size: 12px; padding: 1px 3px; text-transform: upperc=
+ase; background-color: #00bb00; color: #fff; font-weight: normal; font-fam=
+ily: verdana=2C arial=2C sans-serif">tutorial</span>&nbsp;<span style=3D"c=
+olor: #dd0000; font-weight: normal; font-size: 12px; text-transform: upper=
+case; font-family: verdana=2C arial=2C sans-serif"><br />DataMelon </span>=
+</li><li style=3D"color: #ee5533; margin-bottom: 16px; font-size: 16px; li=
+ne-height: 16px"><a href=3D"http://rubyweekly.us1.list-manage2.com/track/c=
+lick?u=3D0618f6a79d6bb9675f313ceb2&id=3D3b32711714&e=3Dada472af1a" style=
+=3D"color: #0055bb; margin-right: 4px; line-height: 20px; font-weight: nor=
+mal">N-gram Analysis for Fun and Profit</a>&nbsp;<span style=3D"font-size:=
+ 12px; padding: 1px 3px; text-transform: uppercase; background-color: #00b=
+b00; color: #fff; font-weight: normal; font-family: verdana=2C arial=2C sa=
+ns-serif">tutorial</span>&nbsp;<span style=3D"color: #dd0000; font-weight:=
+ normal; font-size: 12px; text-transform: uppercase; font-family: verdana=
+=2C arial=2C sans-serif"><br />Black Bytes </span></li><li style=3D"color:=
+ #ee5533; margin-bottom: 16px; font-size: 16px; line-height: 16px"><a href=
+=3D"http://rubyweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb967=
+5f313ceb2&id=3De6f75db07c&e=3Dada472af1a" style=3D"color: #0055bb; margin=
+-right: 4px; line-height: 20px; font-weight: normal">The Basics of Forking=
+ with Ruby</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; text=
+-transform: uppercase; background-color: #00bb00; color: #fff; font-weight=
+: normal; font-family: verdana=2C arial=2C sans-serif">tutorial</span>&nbs=
+p;<span style=3D"color: #dd0000; font-weight: normal; font-size: 12px; tex=
+t-transform: uppercase; font-family: verdana=2C arial=2C sans-serif"><br /=
+>Edward Price </span></li><li style=3D"color: #ee5533; margin-bottom: 16px=
+; font-size: 16px; line-height: 16px"><a href=3D"http://rubyweekly.us1.lis=
+t-manage1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dbb08c0aff3&e=
+=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-height: 2=
+0px; font-weight: normal">Learning Ruby through Clojure</a>&nbsp;<span sty=
+le=3D"font-size: 12px; padding: 1px 3px; text-transform: uppercase; backgr=
+ound-color: #aa6600; color: #fff; font-weight: normal; font-family: verdan=
+a=2C arial=2C sans-serif">opinion</span>&nbsp;<span style=3D"color: #dd000=
+0; font-weight: normal; font-size: 12px; text-transform: uppercase; font-f=
+amily: verdana=2C arial=2C sans-serif"><br />Ahmad Hammad </span></li><li=
+ style=3D"color: #ee5533; margin-bottom: 16px; font-size: 16px; line-heigh=
+t: 16px"><a href=3D"http://rubyweekly.us1.list-manage.com/track/click?u=3D=
+0618f6a79d6bb9675f313ceb2&id=3D53d7c01bfd&e=3Dada472af1a" style=3D"color:=
+ #0055bb; margin-right: 4px; line-height: 20px; font-weight: normal">Profe=
+ssional private code hosting for developers & teams</a>&nbsp;<span style=
+=3D"font-size: 12px; padding: 1px 3px; text-transform: uppercase; backgrou=
+nd-color: #0077cc; color: #fff; font-weight: normal; font-family: verdana=
+=2C arial=2C sans-serif">tools</span> <br /><span style=3D"font-size: 12px=
+; color: #666666">Codebase offers fast &amp; reliable hosting for Git=2C H=
+G &amp; SVN repos with project management built-in. 50% off first 3 months=
+ with code RUBYWEEKLY.</span>&nbsp;<span style=3D"color: #dd0000; font-wei=
+ght: normal; font-size: 12px; text-transform: uppercase; font-family: verd=
+ana=2C arial=2C sans-serif"><br />Codebase &nbsp;&nbsp;<span style=3D"back=
+ground-color: #ffff99; color: #999900; font-weight: normal; padding: 1px 5=
+px 0px 6px;">Sponsored</span></span></li><li style=3D"color: #ee5533; marg=
+in-bottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rub=
+yweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3Da0129d4e0b&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px;=
+ line-height: 20px; font-weight: normal">MongoDB Ruby Driver 2.1.0 Release=
+d</a>&nbsp;<span style=3D"font-size: 12px; padding: 1px 3px; text-transfor=
+m: uppercase; background-color: #00bbbb; color: #fff; font-weight: normal;=
+ font-family: verdana=2C arial=2C sans-serif">code</span>&nbsp;<span style=
+=3D"color: #dd0000; font-weight: normal; font-size: 12px; text-transform:=
+ uppercase; font-family: verdana=2C arial=2C sans-serif"><br />Compose.io=
+ </span></li><li style=3D"color: #ee5533; margin-bottom: 16px; font-size:=
+ 16px; line-height: 16px"><a href=3D"http://rubyweekly.us1.list-manage.com=
+/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Daee618e684&e=3Dada472af1a=
+" style=3D"color: #0055bb; margin-right: 4px; line-height: 20px; font-weig=
+ht: normal">TTY::Screen: Terminal Screen Size and Color Detection</a>&nbsp=
+;<span style=3D"font-size: 12px; padding: 1px 3px; text-transform: upperca=
+se; background-color: #00bbbb; color: #fff; font-weight: normal; font-fami=
+ly: verdana=2C arial=2C sans-serif">code</span> <br /><span style=3D"font-=
+size: 12px; color: #666666">
+Works on Linux=2C OS X and Windows/Cygwin and supports MRI=2C JRuby and Ru=
+binius.
+</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal; font-size=
+: 12px; text-transform: uppercase; font-family: verdana=2C arial=2C sans-s=
+erif"><br />Piotr Murach </span></li><li style=3D"color: #ee5533; margin-b=
+ottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://rubywee=
+kly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dc75=
+5d626a7&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px; line-=
+height: 20px; font-weight: normal">RSStoAPI: An API for Retrieving and Ser=
+ving RSS Feeds=2C with Caching</a>&nbsp;<span style=3D"font-size: 12px; pa=
+dding: 1px 3px; text-transform: uppercase; background-color: #00bbbb; colo=
+r: #fff; font-weight: normal; font-family: verdana=2C arial=2C sans-serif"=
+>code</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal; font=
+-size: 12px; text-transform: uppercase; font-family: verdana=2C arial=2C s=
+ans-serif"><br />Corey Martin </span></li><li style=3D"color: #ee5533; mar=
+gin-bottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"http://ru=
+byweekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3Df67398bbcd&e=3Dada472af1a" style=3D"color: #0055bb; margin-right: 4px;=
+ line-height: 20px; font-weight: normal">Decontaminator: Ruby HTML Sanitiz=
+er based on a Lightweight Oga Parser</a>&nbsp;<span style=3D"font-size: 12=
+px; padding: 1px 3px; text-transform: uppercase; background-color: #00bbbb=
+; color: #fff; font-weight: normal; font-family: verdana=2C arial=2C sans-=
+serif">code</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal=
+; font-size: 12px; text-transform: uppercase; font-family: verdana=2C aria=
+l=2C sans-serif"><br />Altmetric LLP </span></li><li style=3D"color: #ee55=
+33; margin-bottom: 16px; font-size: 16px; line-height: 16px"><a href=3D"ht=
+tp://rubyweekly.us1.list-manage1.com/track/click?u=3D0618f6a79d6bb9675f313=
+ceb2&id=3D0f0e350a69&e=3Dada472af1a" style=3D"color: #0055bb; margin-righ=
+t: 4px; line-height: 20px; font-weight: normal">rwordnet: A Pure Ruby Inte=
+rface to the WordNet Database</a>&nbsp;<span style=3D"font-size: 12px; pad=
+ding: 1px 3px; text-transform: uppercase; background-color: #00bbbb; color=
+: #fff; font-weight: normal; font-family: verdana=2C arial=2C sans-serif">=
+code</span>&nbsp;<span style=3D"color: #dd0000; font-weight: normal; font-=
+size: 12px; text-transform: uppercase; font-family: verdana=2C arial=2C sa=
+ns-serif"><br />Trevor Fountain </span></li></ul></td></tr><tr><td bgcolor=
+=3D"#f4f4f4" style=3D"font-family: verdana=2C helvetica=2C arial=2C sans-s=
+erif; text-align: left; padding-top: 12px; padding-left: 12px; padding-rig=
+ht: 12px; padding-bottom: 12px" class=3D"noarchive"><p style=3D"line-heigh=
+t: 15px; font-size: 11px; margin-top: 0">Curated by <a href=3D"http://ruby=
+weekly.us1.list-manage2.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=
+=3D18b6946e90&e=3Dada472af1a" style=3D"color: #dd0000">Peter Cooper</a> a=
+nd published by <a href=3D"http://rubyweekly.us1.list-manage.com/track/cli=
+ck?u=3D0618f6a79d6bb9675f313ceb2&id=3Dfc94b33d41&e=3Dada472af1a" style=3D=
+"color: #dd0000">Cooper Press</a>.<br />Send feedback by simply replying t=
+o this mail.<br />Want to sponsor an issue? See our <a href=3D"http://ruby=
+weekly.us1.list-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D=
+5862278580&e=3Dada472af1a" style=3D"color: #666666">media kit.</a><br />W=
+ant to post a job? E-mail us or <a href=3D"http://rubyweekly.us1.list-mana=
+ge1.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dde57ab80d6&e=3D=
+ada472af1a" style=3D"color: #666666">use our self-serve system.</a></p><p sty=
+le=3D"font-size: 14px"><a href=3D"http://rubyweekly.us1.list-manage.com/un=
+subscribe?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd9d24eba5b&e=3Dada472af1a&c=3D3=
+919d6cf16" style=3D"color: #dd0000">Unsubscribe</a> : <a href=3D"http://ru=
+byweekly.us1.list-manage.com/profile?u=3D0618f6a79d6bb9675f313ceb2&id=3Dd9=
+d24eba5b&e=3Dada472af1a" style=3D"color: #dd0000">Change email address</a> :=
+ <a href=3D"http://rubyweekly.us1.list-manage1.com/track/click?u=3D0618f6a=
+79d6bb9675f313ceb2&id=3Dca47fec36b&e=3Dada472af1a" style=3D"color: #dd000=
+0">Read this issue on the Web</a></p><p style=3D"font-size: 11px; line-hei=
+ght: 15px">&copy; Cooper Press Ltd. Office 30=2C Lincoln Way=2C Louth=2C L=
+N11 0LS=2C UK<br /><a href=3D"http://rubyweekly.us1.list-manage1.com/track=
+/click?u=3D0618f6a79d6bb9675f313ceb2&id=3Dfc9986f47b&e=3Dada472af1a" styl=
+e=3D"color: #666666">Email policy</a> <a href=3D"http://rubyweekly.us1.lis=
+t-manage.com/track/click?u=3D0618f6a79d6bb9675f313ceb2&id=3D34d3b05500&e=
+=3Dada472af1a" style=3D"color: #666666">Privacy policy</a></p></td></tr><=
+/table></td></tr></table><img src=3D"http://rubyweekly.us1.list-manage.com=
+/track/open.php?u=3D0618f6a79d6bb9675f313ceb2&id=3D3919d6cf16&e=3D=
+ada472af1a" height=3D"1" width=3D"1"></body></html>
+--_----------=_MCPart_1710663541--
+
+From 1512492995422307496@xxx Wed Sep 16 17:48:43 +0000 2015
+X-GM-THRID: 1512492995422307496
+X-Gmail-Labels: Inbox,bookexample
+Delivered-To: xxxxxx@gmail.com
+Received: by 10.140.97.244 with SMTP id m107csp2507277qge;
+        Wed, 16 Sep 2015 10:48:44 -0700 (PDT)
+X-Received: by 10.50.142.1 with SMTP id rs1mr17988382igb.17.1442425723916;
+        Wed, 16 Sep 2015 10:48:43 -0700 (PDT)
+Return-Path: <bounces+568465-c21d-markw=markwatson.com@email.ghdfgjsf.com>
+Received: from mail1.mail.st (mail1.mail.st. [206.123.115.54])
+        by mx.google.com with ESMTP id y42si18276523ioi.100.2015.09.16.10.48.43
+        for <xxxxxx@gmail.com>;
+        Wed, 16 Sep 2015 10:48:43 -0700 (PDT)
+Received-SPF: softfail (google.com: domain of transitioning bounces+568465-c21d-markw=markwatson.com@email.ghdfgjsf.com does not designate 206.123.115.54 as permitted sender) client-ip=206.123.115.54;
+Authentication-Results: mx.google.com;
+       spf=softfail (google.com: domain of transitioning bounces+568465-c21d-markw=markwatson.com@email.ghdfgjsf.com does not designate 123.123.115.54 as permitted sender) smtp.mailfrom=bounces+568465-c21d-markw=markwatson.com@email.ghdfgjsf.com;
+       dkim=pass header.i=@sendgrid.me
+Received: from o1.email.ghdfgjsf.com (o1.email.ghdfgjsf.com [198.37.151.48])
+	by mail1.mail.st (Postfix) with ESMTPS id 425E360315
+	for <markw@markwatson.com>; Wed, 16 Sep 2015 17:48:41 +0000 (UTC)
+DKIM-Signature: v=1; a=rsa-sha1; c=relaxed; d=sendgrid.me; 
+	h=to:from:reply-to:subject:mime-version:content-type; s=smtpapi; 
+	bh=HYdc+RXX/EngWqZBMoLAs6m0; b=RGk02xHwh5GGpP4zrMA+pSqExskti
+	HdpuGuCgKUbhGdtsy1dEzWs0belsyB74U0hWGrRog0BopaC5yKeKTn
+	Qmw7X6kIkaFGInPbfXp+5Vl4+4sXc38zvgoEoJPXdcA9gIFbO1AfMx18
+	w/5htgHYxVMsX4=
+Received: by filter0691p1mdw1.sendgrid.net with SMTP id filter0691p1mdw1.32158.55F9AA2219
+        2015-09-16 17:42:58.611909252 +0000 UTC
+Received: from cron-srv-1.ghdfgjsf.com (cron-srv-1.ghdfgjsf.com [184.72.223.233])
+	by ismtpd0003p1iad1.sendgrid.net (SG) with ESMTP id qCkUSvIbT2C-lQurT28J-A
+	for <markw@markwatson.com>; Wed, 16 Sep 2015 17:42:58.818 +0000 (UTC)
+Received: from ec2-54-224-36-168.compute-1.amazonaws.com (ip-10-136-126-18.ec2.internal [10.136.126.18])
+	by cron-srv-1.ghdfgjsf.com (Postfix) with ESMTP id 385E26BCFA
+	for <markw@markwatson.com>; Wed, 16 Sep 2015 17:42:58 +0000 (UTC)
+Received: by ec2-54-224-36-168.compute-1.amazonaws.com (Postfix, from userid 33)
+	id 3662B54205; Wed, 16 Sep 2015 17:42:58 +0000 (UTC)
+Date: Wed, 16 Sep 2015 17:42:58 +0000
+To: "markw@markwatson.com" <markw@markwatson.com>
+From: La French Tech <support@ghdfgjsf.com>
+Reply-to: frenchtech@finances.gouv.fr
+Subject: Next steps - the French Tech Ticket just closed!
+Message-ID: <14d20713b118e029669b6ed1f36a4599@www.ghdfgjsf.com>
+X-Priority: 3
+MIME-Version: 1.0
+Content-type: multipart/alternative; boundary="----------=_144278-1527-31"
+X-SG-EID: +Wb4MK0vM1tiYMpeYEm7VTm5Mm5LN4bdh/Gx7/iqSvOIIUXHTLbRt1kwfw894HOAN
+ tpgIbzlLxQttZc2QxvrsHgbTubBFw1LK/PqQ6PgF+OUVQOrYixQEtb7ZOKqP0WAFwNBy0
+ SQ6Sl42ru7oAKVQ=
+X-SG-ID: 3DwuSw5fxbqW8QcZYJhsT82le6b6DMuvc=
+
+This is a multi-part message in MIME format...
+
+------------=_1442425378-1527-31
+Content-Transfer-Encoding: quoted-printable
+Content-Type: text/plain; charset="utf-8"
+
+Dear French Tech Ticket participants,
+
+Thanks for your interest in the French Tech Ticket program!
+
+The application platform for the first promotion of the French Tech Ticket =
+program just closed.
+
+We are pleased to announce you that you are amongst the 722 projects compet=
+ing to enter the first batch of the program.
+
+Please find below the schedule for the selection phases:
+
+Step 1: In the coming days, a first selection phase will choose the 500 eli=
+gible projects (according to your submission order). The other 222 projects=
+ will be informed quickly that they are not selected for the program.
+
+Step 2: The 500 selected projects will be reviewed according to the criteri=
+a mentioned in the Competition rules (page 3, paragraph 4.2). 70 of these p=
+rojects will be selected for video meetings. You=E2=80=99ll be informed of =
+the results and the meeting date by email mid-=E2=80=8BO=E2=80=8Bctober 201=
+5.
+
+Step 3:  Video meetings for the 70 selected teams will be planned between N=
+ovember 2th and November 6th.
+
+Step 4:  Winning projects and a waiting list will be communicated at the en=
+d of November 2015. Team members will have 3 weeks to get their VISA
+
+
+Reminder : in order to be eligible for the French Tech Ticket program, it=
+=E2=80=99s mandatory that :
+
+-          All your team members  who submitted an application to the Frenc=
+h Tech Ticket program come to live in Paris in January 2016 for at least 6 =
+months
+
+-          All your team members  who submitted an application to the Frenc=
+h Tech Ticket program get a VISA to live in France (the fast track to get a=
+ VISA will be detailed further)
+
+-          =E2=80=8BNone or one French member maximum in your team amongst =
+the member who submitted an application to the French Tech Ticket program (=
+application for a team of just one person who is French will not be eligibl=
+e)
+
+
+Kind regards
+
+The French Tech team
+
+------------=_1442425378-1527-31
+Content-Type: text/html; charset="utf-8"
+Content-Disposition: inline
+Content-Transfer-Encoding: quoted-printable
+
+<html><body>
+<p>Dear French Tech Ticket participants,</p>
+<p>Thanks for your interest in the French Tech Ticket program!</p>
+<p>The application platform for the first promotion of the French Tech Tick=
+et program just closed.</p>
+<p>We are pleased to announce you that you are amongst the 722 projects com=
+peting to enter the first batch of the program.</p>
+<p>Please find below the schedule for the selection phases:</p>
+<p>Step 1: In the coming days, a first selection phase will choose the 500 =
+eligible projects (according to your submission order). The other 222 proje=
+cts will be informed quickly that they are not selected for the program.</p>
+<p>Step 2: The 500 selected projects will be reviewed according to the crit=
+eria mentioned in the Competition rules (page 3, paragraph 4.2). 70 of thes=
+e projects will be selected for video meetings. You=E2=80=99ll be informed =
+of the results and the meeting date by email mid-=E2=80=8BO=E2=80=8Bctober =
+2015.</p>
+<p>Step 3:  Video meetings for the 70 selected teams will be planned betwee=
+n November 2th and November 6th.</p>
+<p>Step 4:  Winning projects and a waiting list will be communicated at the=
+ end of November 2015. Team members will have 3 weeks to get their VISA</p>
+<p>Reminder : in order to be eligible for the French Tech Ticket program, i=
+t=E2=80=99s mandatory that :</p>
+<ul><li><p>All your team members  who submitted an application to the Frenc=
+h Tech Ticket program come to live in Paris in January 2016 for at least 6 =
+months</p></li>
+<li><p>All your team members  who submitted an application to the French Te=
+ch Ticket program get a VISA to live in France (the fast track to get a VIS=
+A will be detailed further)</p></li>
+<li><p>=E2=80=8BNone or one French member maximum in your team amongst the =
+member who submitted an application to the French Tech Ticket program (appl=
+ication for a team of just one person who is French will not be eligible)</=
+p></li></ul>
+<p>Kind regards</p>
+<p>The French Tech team</p>
+
+<img src=3D"http://email.ghdfgjsf.com/wf/open?upn=3D-2FGtQH2t6s-2FS-2Fw2gw=
+23VqGaXmBtZjh2p5c-2BpCbHqO7EKYnHNlq87cMjVOw9JHKw64oiNwOyAcb4QIkxZoZwdNpTh98=
+LnboAEpkJhr0tiMcqe7h3LDMtia9fkBnfGRdNV2-2B7Al2aHdwi8-2BBpbmup6LxAYpCADfsGvt=
+vZjz9RT9DuSyiL4-2BmSBwVEt0AybnU6E62ddsLWCGtJIz37dz-2Bqr0ND0NJNB8kdTEis6IyYP=
+Foixj0pKKCGGHK-2Blt4r887zbEvy-2FX10kJd5TEkCTqyUlVnA-3D-3D" alt=3D"" width=
+=3D"1" height=3D"1" border=3D"0" style=3D"height:1px !important;width:1px !=
+important;border-width:0 !important;margin-top:0 !important;margin-bottom:0=
+ !important;margin-right:0 !important;margin-left:0 !important;padding-top:=
+0 !important;padding-bottom:0 !important;padding-right:0 !important;padding=
+-left:0 !important;"/>
+</body></html>
+
+------------=_1442425378-1527-31--
+
+From 1512559716434935498@xxx Thu Sep 17 11:29:13 +0000 2015
+X-GM-THRID: 1512559716434935498
+X-Gmail-Labels: Inbox,bookexample
+Delivered-To: xxxxxx@gmail.com
+Received: by 10.140.97.244 with SMTP id m107csp2915745qge;
+        Thu, 17 Sep 2015 04:29:13 -0700 (PDT)
+X-Received: by 10.140.34.47 with SMTP id k44mr497334qgk.28.14489353374;
+        Thu, 17 Sep 2015 04:29:13 -0700 (PDT)
+Return-Path: <0000014fdb12fc-265a6c78-51a7-4798-8f4b-5d8c8c932310-000000@amazonses.com>
+Received: from a11-9.smtp-out.amazonses.com (a11-9.smtp-out.amazonses.com. [54.240.11.9])
+        by mx.google.com with ESMTPS id b21si2167452qkj.22.2015.09.17.04.29.13
+        for <xxxxxx@gmail.com>
+        (version=TLSv1 cipher=ECDHE-RSA-RC4-SHA bits=128/128);
+        Thu, 17 Sep 2015 04:29:13 -0700 (PDT)
+Received-SPF: pass (google.com: domain of 0000014fdb2fc-265a6c78-51a7-4798-8f4b-5d8c932310-000000@amazonses.com designates 54.240.11.9 as permitted sender) client-ip=54.240.11.9;
+Authentication-Results: mx.google.com;
+       spf=pass (google.com: domain of 0000014b10c2fc-265a6c78-51a7-4798-5d8c8c9323-000000@amazonses.com designates 54.240.11.9 as permitted sender) smtp.mailfrom=0000014fdb10c2265a6c78-51a7-479f4b-5d8c8c932310-000000@amazonses.com;
+       dkim=pass header.i=@amazonses.com;
+       dkim=pass header.i=@courseupdates.edx.org
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=ug7nbtf4gccmlpwj322ax3p6ow6yfsug; d=amazonses.com; t=1442489353;
+	h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID:Feedback-ID;
+	bh=CRnw+vSZkCKTzBvttMgxpP8gwc6/KHbJPh3nI=;
+	b=spSXAM8/KgF5SO107I/bxOWTcGcF4d7vqqJW1zyUilONwjGHa2I1E
+	evQmSDDTGRABt/bWDcXCMwPgxfVYjEcRABUtdANKBk9GtExgFo/28z2
+	P3PIp3OEayAXv71u91JJLeujLfnASMs=
+DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/simple;
+	s=l23lrmqx5x6exlcxnrnhlw4rmgh; d=courseupdates.edx.org;
+	t=14424853;
+	h=Content-Type:MIME-Version:Subject:From:To:Date:Message-ID;
+	bh=CRnw+vSZkCKTzBvttMgxpPc6LQd3n//KHbJPh3nI=;
+	b=qBqkFtL4KjIIMjhEZlCGocT4mDz6O1en3shyI9c9RGxqOv6PzXaLBS+e8UWE/
+	zjnSoV7KUJvven3v35uPpw+VTgI/rY2M2ArigTamJXmNbQcrg47ycnjpsbZCNRP
+	LsnJgOfG5sV17y69MK5/YeCDRtfNXvCoB2w=
+Content-Type: multipart/alternative;
+ boundary="===============8241165765626539225=="
+MIME-Version: 1.0
+Subject: Ready for DAT203x: Data Science and Machine Learning Essentials?
+From: "Data Science and Machine Learning Essentials" Course Staff
+ <DAT203x-no-reply@courseupdates.edx.org>
+To: xxxxxx@gmail.com
+Date: Thu, 17 Sep 2015 11:29:13 +0000
+Message-ID: <0000014fdb10c2fc-265a6c78-51a7-4798-8f4b-5d8c8c932310-000000@email.amazonses.com>
+X-SES-Outgoing: 2015.09.17-54.240.11.9
+Feedback-ID: 1.us-east-1.aQNMFRW1I1Ut2T36xQwCF/Az9iqN48Biwt00DQaRPL8=:AmazonSES
+
+--===============8241165765626539225==
+Content-Type: text/plain; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+Data Science and Machine Learning Essentials
+
+   Hi !
+
+   Thank you for signing up for our course Data Science and Machine
+   Learning Essentials.
+   With many research studies from Mc-kinsey and Harvard calling Data
+   Science as the hottest job of this century, we are all aware that this
+   skill is in high demand today. Students who attend the course will walk
+   away with a firm understanding of the essential data science concepts
+   such as extraction, preparation, exploration and visualization along
+   with examples on how to build data science solutions.
+
+   We're very excited to have you join us for what we hope will be an
+   enjoyable and productive course. The course starts next Thursday (at
+   00:00 UTC).  During the course, you will use Microsoft Azure Machine
+   Learning and write code in either R or Python. Full setup instructions
+   will be provided in the first week of the course, but if you can’t wait
+   to get started, you can perform the following steps ahead of time.
+     * Sign up for a free Azure ML account at
+       [1]http://bit.ly/azureml_login. No credit card or installation
+       needed as the software works right from your browser
+     * If you want to complete the programming exercises with R:
+
+    1. Install R from [2]https://cran.r-project.org/
+    2. Install R-Studio
+       from [3]https://www.rstudio.com/products/rstudio/download/
+
+     If you want to complete the programming exercises in Python:
+    1. Install the Anaconda Python distribution from
+       [4]http://continuum.io/downloads
+
+   In the meantime, have a great weekend - see you next Thursday!
+   Cynthia, Steve & the entire course staff
+
+References
+
+   1. http://bit.ly/azureml_login
+   2. http://bit.ly/azureml_login
+   3. https://www.rstudio.com/products/rstudio/download/
+   4. http://continuum.io/downloads
+
+----
+Copyright 2015 edX, All rights reserved.
+----
+Connect with edX:
+Facebook (http://facebook.com/edxonline)
+Twitter (http://twitter.com/edxonline)
+Google+ (https://plus.google.com/108235383044095082735)
+Meetup (http://www.meetup.com/edX-Communities/)
+----
+This email was automatically sent from edX.
+You are receiving this email at address xxxxxx@gmail.com because you are enrolled in Data Science and Machine Learning Essentials
+(URL: https://courses.edx.org/courses/course-v1:Microsoft+DAT203x+1T2016/ ).
+To stop receiving email like this, update your account settings at https://courses.edx.org/dashboard.
+
+--===============8241165765626539225==
+Content-Type: text/html; charset="utf-8"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">    <!-- So that mobile webkit will display zoomed in -->
+    <meta name="format-detection" content="telephone=no"> <!-- disable auto telephone linking in iOS -->
+
+    <title>edX Course Update for Data Science and Machine Learning Essentials</title>
+
+    <style type="text/css">
+        /* Resets: see reset.css for details */
+        .ReadMsgBody { width: 100%; background-color: #ebebeb;}
+        .ExternalClass { width: 100%; background-color: #ebebeb;}
+        .ExternalClass, .ExternalClass p, .ExternalClass span, .ExternalClass font, .ExternalClass td, .ExternalClass div {line-height:100%;}
+        body {-webkit-text-size-adjust:none; -ms-text-size-adjust:none;}
+        body {margin:0; padding:0;}
+        table {border-spacing:0;}
+        table td {border-collapse:collapse;}
+        .yshortcuts a {border-bottom: none !important;}
+        /* Constrain email width for small screens */
+        @media screen and (max-width: 600px) {
+            table[class="container"] {
+                width: 95% !important;
+            }
+            table[class="columns-container"] {
+                width: 100%;
+            }
+        }
+        /* Give content more room on mobile */
+        @media screen and (max-width: 480px) {
+            td[class="container-padding"] {
+                padding-left: 12px !important;
+                padding-right: 12px !important;
+            }
+         }
+        /* Styles for forcing columns to rows */
+        @media only screen and (max-width : 600px) {
+            /* force container columns to (horizontal) blocks */
+            td[class="force-col"] {
+                display: block;
+                padding-right: 0 !important;
+            }
+            table[class="col-2"] {
+                /* unset table align="left/right" */
+                float: none !important;
+                width: 100% !important;
+                /* change left/right padding and margins to top/bottom ones */
+                margin-bottom: 12px;
+                border-bottom: 1px solid #eeeeee;
+            }
+            /* remove bottom border for last column/row */
+            table[id="last-col-2"] {
+                border-bottom: none !important;
+                margin-bottom: 0;
+            }
+            /* adjust text sizing for email type */
+            td[class="email-type"] {
+                line-height: 30px;
+            }
+            table[class="col-2-actions"] {
+                /* unset table align="left/right" */
+                float: none !important;
+                width: 100% !important;
+                /* change left/right padding and margins to top/bottom ones */
+                margin-bottom: 20px;
+            }
+            table[class="col-2-edx"] {
+                /* unset table align="left/right" */
+                float: none !important;
+                width: 100% !important;
+                /* change left/right padding and margins to top/bottom ones */
+                margin-bottom: 20px;
+            }
+        }
+    
+    </style>
+
+</head>
+<body style="margin:0; padding:10px 0;" bgcolor="#dddddd" leftmargin="0" topmargin="0" marginwidth="0" marginheight="0">
+
+<br>
+
+<!-- 100% wrapper (grey background) -->
+<table border="0" width="100%" height="100%" cellpadding="0" cellspacing="0" bgcolor="#dddddd" style="padding-top:5px; padding-bottom: 5px; padding-left:5px; padding-right:5px;">
+    <tr>
+        <td align="center" valign="top" bgcolor="#dddddd" style="background-color: #dddddd;">
+            <!-- 600px container (white background) -->
+            <table border="0" width="600" cellpadding="0" cellspacing="0" class="container" bgcolor="#ffffff" style="border-radius: 5px; box-shadow: 0 0 2px #aaaaaa;">
+                <tr>
+                    <td class="container-padding" bgcolor="#ffffff" style="background-color: #ffffff; padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Open Sans, sans-serif; color: #333; border-top: 10px solid #1AA1E0; border-radius: 5px;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="pre-header-container">
+                            <tr>
+                                <td align="left" valign="middle" style="font-size:30px; font-style: bold; height: 50px; font-family: Open Sans, Arial, sans-serif;">
+                                    <img src="http://gallery.mailchimp.com/1822a33c054dc20e223ca40e2/images/logo_web_edx_studio01aad778f34f.png" height="30" alt="edX Logo" border="0" hspace="0" vspace="0" class="platform-img">
+                                </td>
+                                <td align="left" class="email-type" valign="top" style="font-size: 20px; vertical-align: middle; padding-left: 20px; font-family: Open Sans, Arial, sans-serif; color: #127eb1;">
+                                    Course Update
+                                </td>
+                            </tr>
+                        </table><!--/ end .pre-header-container-->
+                    </td>
+                </tr>
+                <!-- Header -->
+                <tr>
+                    <td class="container-padding" bgcolor="#f3f3f3" style="padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Open Sans, sans-serif; color: #333; background-color: #f3f3f3; border-top: 1px solid #cccccc; border-bottom: 1px solid #eeeeee;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="columns-container" style="width:100%;">
+                          <tr>
+                            <td class="force-col" style="padding-right: 20px;" valign="middle">
+                                <!-- ### COLUMN 1 - COURSE AND TITLE ### -->
+                                <table border="0" cellspacing="0" cellpadding="0" width="280" align="left" class="col-2">
+                                    <tr>
+                                        <td align="left" valign="top" style="font-size:13px; line-height: 20px; font-family: Open Sans, Arial, sans-serif; color: #aaaaaa;">
+                                            <br>
+                                            Course Update from:
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td align="left" valign="top" style="line-height: 26px; font-family: Open Sans, Arial, sans-serif; font-style: bold; font-size:24px; color: #002D40;">
+                                            Data Science and Machine Learning Essentials 
+                                            <br><br>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                            <td class="force-col"  valign="middle">
+                                <!-- ### COLUMN 2 - GO TO COURSE ### -->
+                                <table border="0" cellspacing="0" cellpadding="10" width="100" align="right" class="col-2">
+                                    <tr>
+                                        <td align="center" valign="middle" style="font-size:13px; font-family: Open Sans, Arial, sans-serif; background-color: #127eb1; border-radius: 5px; box-shadow: 0 2px #002D40;">
+                                            <a href="https://courses.edx.org/courses/course-v1:Microsoft+DAT203x+1T2016/" style="color: #ffffff; text-decoration: none;">Go to Course</a>
+                                        </td>
+                                    </tr>
+                                </table>
+                            </td>
+                          </tr>
+                        </table><!--/ end .columns-container-->
+                    </td>
+                </tr>
+                <!-- Message Body -->
+                <tr>
+                    <td class="container-padding" bgcolor="#ffffff" style="background-color: #ffffff; padding-left: 30px; padding-right: 30px; font-size: 13px; line-height: 20px; font-family: Open Sans, sans-serif; color: #333; border-radius: 5px;" align="left">
+                        <br>
+                        <!--/message HTML content -->
+                        <p>Hi !</p>
+<p>Thank you for signing up for our course Data Science and Machine Learning Essentials.<br />With many research studies from Mc-kinsey and Harvard calling Data Science as the hottest job of this century, we are all aware that this skill is in high demand today. Students who attend the course will walk away with a firm understanding of the essential data science concepts such as extraction, preparation, exploration and visualization along with examples on how to build data science solutions.</p>
+<p>We're very excited to have you join us for what we hope will be an enjoyable and productive course. The course starts next Thursday (at 00:00 UTC).&nbsp; During the course, you will use Microsoft Azure Machine Learning and write code in either R or Python. Full setup instructions will be provided in the first week of the course, but if you can&rsquo;t wait to get started, you can perform the following steps ahead of time.</p>
+<ul>
+<li>Sign up for a free Azure ML account at <a href="http://bit.ly/azureml_login" target="[object Object]">http://bit.ly/azureml_login</a>. No credit card or installation needed as the software works right from your browser</li>
+<li>If you want to complete the programming exercises with R:</li>
+<ol>
+<li>Install R from <a href="http://bit.ly/azureml_login" target="[object Object]">https://cran.r-project.org/</a></li>
+<li>Install R-Studio from&nbsp;<a href="https://www.rstudio.com/products/rstudio/download/" target="[object Object]">https://www.rstudio.com/products/rstudio/download/</a></li>
+</ol>
+<li>If you want to complete the programming exercises in Python:</li>
+<ol>
+<li>Install the Anaconda Python distribution from <a href="http://continuum.io/downloads" target="[object Object]">http://continuum.io/downloads</a></li>
+</ol></ul>
+<p></p>
+<p>In the meantime, have a great weekend - see you next Thursday! <br />Cynthia, Steve &amp; the entire course staff&nbsp; </p>
+                        <!--/message HTML content -->
+                        <br><br>
+                    </td>
+                </tr>
+                <!-- Go to Course - Footer -->
+                <tr>
+                    <td class="footer-padding" style="padding-left: 30px; padding-right: 30px; padding-bottom: 20px; font-size: 13px; line-height: 20px; font-family: Open Sans, sans-serif; color: #002D40; border-radius: 5px;" align="left">
+                        <table border="0" cellpadding="0" cellspacing="0" class="columns-container">
+                            <tr>
+                                <td class="force-col" style="padding-right: 20px;" valign="middle">
+                                    <!-- ### COLUMN 1 - GO TO COURSE FOOTER  ### -->
+                                    <table border="0" cellspacing="0" cellpadding="10" width="100"  align="right" class="col-2-actions">
+                                        <tr>
+                                            <td align="center" valign="right" style="font-size:13px; font-family: Open Sans, Arial, sans-serif; background-color: #127eb1; border-radius: 5px; box-shadow: 0 2px #002D40;">
+                                                <a href="https://courses.edx.org/courses/course-v1:Microsoft+DAT203x+1T2016/" style="color: #ffffff; text-decoration: none;">Go to Course</a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table>
+                        <br>
+                    </td>
+                </tr>
+                <!-- Share Messaging -->
+                <tr>
+                    <td class="container-padding" bgcolor="#ffffff" style="padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Open Sans, sans-serif; color: #333; background-color: #f3f3f3; border-bottom: 1px solid #cccccc;">
+                        <table border="0" cellpadding="0" cellspacing="0" class="columns-container">
+                            <tr>
+                                <td class="force-col" style="padding-right: 40px;" valign="middle">
+                                    <!-- ### COLUMN 1 - SHARE MESSAGING ### -->
+                                    <table border="0" cellspacing="0" cellpadding="0" align="right" class="col-2-edx">
+                                        <tr>
+                                            <td align="middle" valign="top" style="font-size: 12px; color: #6f6f6f;">
+                                                <br>
+                                                Share your edX experience!
+                                                <br><br>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                                <td class="force-col" valign="right">
+                                    <!-- ### COLUMN 2 - CONNECT ### -->
+                                    <table border="0" cellspacing="0" cellpadding="0" width="150" align="right" class="col-2-edx">
+                                        <tr>
+                                            <td align="center" valign="middle" style="padding-left: 5px; padding-right:5px; padding-top: 15px;">
+                                                <a href='http://facebook.com/edxonline' target='_blank' style='color: #6DC6DD;font-weight: normal;word-wrap: break-word !important; vertical-align:middle; '>
+                                                <img height='30' alt='Like us on Facebook' src='https://d37djvu3ytnwxt.cloudfront.net/static/images/bulk_email/FacebookIcon_gray.png' style='width: 30px; height: 30px; border: 0; line-height: 100%; outline: none; text-decoration: none;' width='30'></a>
+                                            </td>
+                                            <td align="center" valign="middle" style="padding-left: 5px; padding-right:5px; padding-top: 15px;">
+                                                <a href='http://twitter.com/edxonline' target='_blank' style='color: #6DC6DD; font-weight: normal;word-wrap: break-word !important;  vertical-align:middle;'>
+                                                <img height='30' alt='Follow us on Twitter' src='https://d37djvu3ytnwxt.cloudfront.net/static/images/bulk_email/TwitterIcon_gray.png' style='width: 30px; height: 30px; border: 0; line-height: 100%; outline: none; text-decoration: none;' width='30'></a>
+                                            </td>
+                                            <td align="center" valign="middle" style="padding-left: 5px; padding-right:5px; padding-top: 15px;">
+                                                <a href='https://plus.google.com/108235383044095082735' target='_blank' style='color: #6DC6DD; font-weight: normal; word-wrap: break-word !important; vertical-align:middle;'>
+                                                <img height='30' alt='Follow us on Google+' src='https://d37djvu3ytnwxt.cloudfront.net/static/images/bulk_email/GooglePlusIcon_gray.png' style='width: 30px; height: 30px; border: 0; line-height: 100%; outline: none; text-decoration: none;' width='42'></a>
+                                            </td>
+                                            <td align="center" valign="middle" style="padding-left: 5px; padding-right:5px; padding-top: 15px;">
+                                                <a href='http://www.linkedin.com/company/edx' target='_blank' style='color: #6DC6DD;font-weight: normal;word-wrap: break-word !important;  vertical-align:middle;'>
+                                                <img height='30' alt='Connect with us on LinkedIn' src='https://d37djvu3ytnwxt.cloudfront.net/static/images/bulk_email/LinkedInIcon_gray.png' style='width: 30px; height: 30px; border: 0; line-height: 100%; outline: none; text-decoration: none;' width='30'></a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+                        </table><!--/ end .columns-container-->
+                    </td>
+                </tr>
+                <!-- Email Settings -->
+                <tr>
+                    <td class="footer-padding" style="padding-left: 30px; padding-right: 30px; font-size: 13px; line-height: 20px; font-family: Open Sans, sans-serif; color: #002D40; border-radius: 5px;" align="left">
+                        <!--footer content -->
+                        <br>
+                        <p>You are receiving this email because you are enrolled in the edX course Data Science and Machine Learning Essentials</p>
+                        <br>
+                        <table border="0" cellpadding="0" cellspacing="0" class="columns-container">
+                          <tr>
+                            <td class="force-col" style="padding-right: 20px;" valign="middle">
+                                <!-- ### COLUMN 1 - MODIFY EMAIL SETTINGS ### -->
+                                <table border="0" cellspacing="0" cellpadding="0" width="220" align="left" class="col-2-actions">
+                                    <tr>
+                                        <td align="center" valign="top" style="font-size:13px; line-height: 24px; font-family: Open Sans, Arial, sans-serif; color: #aaaaaa;">
+                                            <a href="https://courses.edx.org/dashboard" style="display: block; text-decoration: none; color: #002D40; border: 1px solid #dddddd; box-shadow: 0 1px #dddddd; border-radius: 5px; padding: 10px;">Modify course email settings.</a>
+                                        </td>
+                                    </tr>
+                                </table>
+
+                            </td>
+                          </tr>
+                        </table><!--/ end footer-actions-container-->
+                        <br>
+                        <!--/ end footer content -->
+                    </td>
+                </tr>
+                <!-- Copyright and Address -->
+                <tr>
+                    <td class="container-padding" bgcolor="#ffffff" style="padding-left: 30px; padding-right: 30px; font-size: 14px; line-height: 20px; font-family: Open Sans, sans-serif; color: #333; background-color: #ffffff; border-bottom: 1px solid #cccccc; border-radius: 5px;">
+
+                        <table border="0" cellpadding="0" cellspacing="0" class="columns-container">
+                          <tr>
+                            <td class="force-col" style="padding-right: 20px;" valign="middle">
+
+                                <!-- ### COLUMN 1 - COPYRIGHT AND ADDRESS ### -->
+                                <table border="0" cellspacing="0" cellpadding="0" width="250" align="left" class="col-2-edx">
+                                <tr>
+                                    <td align="left" valign="top" style="font-size: 10px; color: #767676; font-style: italic;">
+                                        <br>
+                                        Copyright © 2015 edX, All Rights. Reserved.
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top" style="font-size: 10px; color: #767676;">
+                                        141 Portland St, Cambridge, MA 02142
+                                        <br><br>
+                                    </td>
+                                </tr>
+                                </table>
+
+                            </td>
+                          </tr>
+                        </table><!--/ end .columns-container-->
+                    </td>
+                </tr>
+            </table>
+            <!--/600px container -->
+        </td>
+    </tr>
+</table>
+<!--/100% wrapper-->
+<br>
+<br>
+</body>
+</html>
+--===============8241165765626539225==--
+
