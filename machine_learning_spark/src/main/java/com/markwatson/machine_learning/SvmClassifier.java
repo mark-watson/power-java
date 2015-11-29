@@ -49,7 +49,7 @@ public class SvmClassifier {
     int numIterations = 500;
     final SVMModel model =
         SVMWithSGD.train(JavaRDD.toRDD(training), numIterations);
-
+    model.clearThreshold();
     // Evaluate model on training examples and compute training error
     JavaRDD<Tuple2<Double, Double>> valuesAndPreds = testing.map(
         new Function<LabeledPoint, Tuple2<Double, Double>>() {
