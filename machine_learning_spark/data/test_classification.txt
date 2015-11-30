@@ -1,0 +1,16 @@
+EDUCATION	The university admitted more students this year and dropout rate is lessening.
+HEALTH	The cold epidemic is lessening.
+EDUCATION	The students turned in their homework at school before summer break.
+EDUCATION	The students and teachers agreed on a plan for study.
+EDUCATION	The school suspended four students for cheating.
+HEALTH	The cold outbreak was bad but not an epidemic.
+HEALTH	The doctor and the nurse advised be to get rest because of my cold.
+HEALTH	The doctor had to go to the hospital.
+EDUCATION	Late homework affected the students grades
+EDUCATION	The school board and teachers met with the city council.
+HEALTH	The doctors discussed the patient with the nurse.
+EDUCATION	The student lost her homework.
+HEALTH	The hospital has 215 patients, 10 doctors, and 22 nurses.
+HEALTH	The cold and flu season started this month.
+HEALTH	The doctor had a cold and took the day off.
+EDUCATION	The teacher yelled at the student who was late to class but later apologized.
