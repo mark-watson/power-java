@@ -20,6 +20,8 @@ public class NewsClassifier {
     for (int i=0; i<outcomes.length; i++) {
       results.add(new Pair<String, Double>(aCategorizer.getCategory(i), outcomes[i]));
     }
+    results.sort((Pair<String,Double> o1, Pair<String,Double> o2) ->
+            o2.val < o1.val ? -1 : o2.val == o1.val ? 0 : 1); // sort in best-first order
     return results;
   }
 
