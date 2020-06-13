@@ -43,3 +43,8 @@ You might be interested in other books that I have self-published via leanpub:
 - [Build Intelligent Systems with JavaScript](https://leanpub.com/aijavascript)
 
 My older books published by Springer-Verlag, McGraw-Hill, Morgan Kaufman, APress, Sybex, M&T Press, and J. Wiley are listed on the [books page of my web site](http://markwatson.com/books/).
+
+## Donate on Patreon to support all of my projects
+
+Please visit [https://www.patreon.com/markwatson](https://www.patreon.com/markwatson) and sign up to donate $1/month
+
